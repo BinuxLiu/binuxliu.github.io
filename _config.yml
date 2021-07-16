@@ -82,13 +82,13 @@ analytics:
 author:
   name             : "Binux Liu"
   avatar           : "profile.png"
-  bio              : "UCAS Master"
+  bio              : "CASIA's Master"
   location         : "Beijing, China"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
-  researchgate     : "https://www.researchgate.net/profile/yourprofile"
+  email            : "binuxliu@gmail.com"
+  researchgate     : # "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "https://github.com/BinuxLiu"
   google_plus      :
   keybase          :
   instagram        :
