@@ -3,310 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Bingxi (Binux) Liu — PhD Student at SUSTech & PCL, Visual Place Recognition & Computer Vision">
+  <meta http-equiv="refresh" content="0;url=en/index.html">
   <title>Bingxi (Binux) Liu</title>
-  <style>
-    /* ─── Reset & Base ─── */
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; font-size: 16px; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans SC", sans-serif;
-      line-height: 1.7;
-      color: #1a1a2e;
-      background: #fafafa;
-    }
-    a { color: #2563eb; text-decoration: none; transition: color 0.2s; }
-    a:hover { color: #1d4ed8; }
-
-    /* ─── Layout ─── */
-    .container { max-width: 900px; margin: 0 auto; padding: 0 24px; }
-
-    /* ─── Header ─── */
-    header {
-      padding: 64px 0 48px;
-      text-align: center;
-      border-bottom: 1px solid #e5e7eb;
-    }
-    .profile-img {
-      width: 150px; height: 150px; border-radius: 50%; object-fit: cover;
-      border: 4px solid #e5e7eb; margin-bottom: 24px;
-      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
-    }
-    header h1 { font-size: 2.25rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 8px; }
-    header .subtitle { font-size: 1.1rem; color: #4b5563; margin-bottom: 6px; }
-    header .affiliation { font-size: 0.9rem; color: #6b7280; }
-    header .social-links { margin-top: 18px; display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
-    header .social-links a {
-      display: inline-flex; align-items: center; gap: 6px;
-      font-size: 0.9rem; color: #4b5563; padding: 6px 14px;
-      border: 1px solid #d1d5db; border-radius: 24px;
-      transition: all 0.2s;
-    }
-    header .social-links a:hover { background: #1a1a2e; color: #fff; border-color: #1a1a2e; }
-
-    /* ─── Sections ─── */
-    section { padding: 48px 0; border-bottom: 1px solid #e5e7eb; }
-    section:last-of-type { border-bottom: none; }
-    h2 {
-      font-size: 1.4rem; font-weight: 700; margin-bottom: 20px;
-      color: #111827; letter-spacing: -0.01em;
-      display: flex; align-items: center; gap: 10px;
-    }
-    h2::before { content: ""; display: block; width: 4px; height: 24px; background: #2563eb; border-radius: 2px; }
-
-    /* ─── About ─── */
-    .about p { font-size: 1.02rem; color: #374151; margin-bottom: 12px; }
-    .about .highlight { font-weight: 600; color: #111827; }
-
-    /* ─── Research Interests ─── */
-    .interests-grid {
-      display: flex; flex-wrap: wrap; gap: 10px; margin-top: 8px;
-    }
-    .interest-tag {
-      display: inline-block; padding: 8px 18px;
-      background: #eff6ff; color: #1e40af;
-      border: 1px solid #bfdbfe; border-radius: 24px;
-      font-size: 0.88rem; font-weight: 500;
-    }
-
-    /* ─── Publications ─── */
-    .pub-card {
-      padding: 22px 26px; margin-bottom: 16px;
-      background: #fff; border: 1px solid #e5e7eb; border-radius: 12px;
-      transition: box-shadow 0.2s, border-color 0.2s;
-    }
-    .pub-card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.06); border-color: #bfdbfe; }
-    .pub-card h3 { font-size: 1.05rem; font-weight: 600; color: #111827; margin-bottom: 6px; }
-    .pub-card .authors { font-size: 0.9rem; color: #4b5563; margin-bottom: 4px; }
-    .pub-card .authors .me { font-weight: 700; color: #111827; }
-    .pub-card .venue { font-size: 0.85rem; color: #6b7280; margin-bottom: 10px; }
-    .pub-card .venue em { font-style: normal; font-weight: 600; color: #2563eb; }
-    .pub-links { display: flex; gap: 14px; flex-wrap: wrap; }
-    .pub-links a { font-size: 0.85rem; font-weight: 500; }
-
-    /* ─── Projects ─── */
-    .projects-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 16px; }
-    .project-card {
-      padding: 20px; background: #fff; border: 1px solid #e5e7eb;
-      border-radius: 12px; transition: all 0.2s;
-    }
-    .project-card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.06); border-color: #bfdbfe; }
-    .project-card h3 { font-size: 1rem; font-weight: 600; color: #111827; margin-bottom: 6px; }
-    .project-card p { font-size: 0.85rem; color: #6b7280; margin-bottom: 8px; line-height: 1.5; }
-    .project-card .meta { display: flex; gap: 12px; font-size: 0.8rem; color: #9ca3af; }
-
-    /* ─── Education ─── */
-    .edu-item { display: flex; gap: 18px; margin-bottom: 22px; align-items: flex-start; }
-    .edu-marker {
-      width: 12px; height: 12px; margin-top: 7px; flex-shrink: 0;
-      border-radius: 50%; background: #2563eb;
-    }
-    .edu-content h3 { font-size: 1rem; font-weight: 600; color: #111827; }
-    .edu-content .school { font-size: 0.9rem; color: #4b5563; }
-    .edu-content .year { font-size: 0.8rem; color: #9ca3af; }
-
-    /* ─── Footer ─── */
-    footer {
-      text-align: center; padding: 40px 0;
-      font-size: 0.85rem; color: #9ca3af;
-    }
-    footer a { color: #6b7280; }
-
-    /* ─── Responsive ─── */
-    @media (max-width: 640px) {
-      header { padding: 40px 0 32px; }
-      header h1 { font-size: 1.6rem; }
-      .profile-img { width: 110px; height: 110px; }
-      section { padding: 32px 0; }
-      .projects-grid { grid-template-columns: 1fr; }
-    }
-  </style>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>
+    // Auto-redirect based on browser language
+    (function(){
+      var lang = (navigator.language || navigator.userLanguage || '').toLowerCase();
+      var target = lang.startsWith('zh') ? 'zh/index.html' : 'en/index.html';
+      // Override meta refresh
+      document.querySelector('meta[http-equiv="refresh"]').setAttribute('content', '0;url=' + target);
+    })();
+  </script>
 </head>
 <body>
+  <div class="bg-stars"></div>
+  <div class="bg-grid"></div>
+  <canvas id="particles"></canvas>
 
-  <!-- ========== HEADER ========== -->
-  <header>
-    <div class="container">
-      <img class="profile-img" src="photo.jpg" alt="Bingxi Liu">
-      <h1>Bingxi (Binux) Liu</h1>
-      <div class="subtitle">PhD Student in Computer Vision</div>
-      <div class="affiliation">
-        Dept. of Electronic and Electrical Engineering,<br>
-        Southern University of Science and Technology (SUSTech)<br>
-        &amp; Peng Cheng Laboratory (PCL) · Shenzhen, China
-      </div>
-      <div class="social-links">
-        <a href="mailto:liubx@pcl.ac.cn">📧 Email</a>
-        <a href="https://scholar.google.com/citations?user=T2_7muEAAAAJ&hl=en" target="_blank">🎓 Google Scholar</a>
-        <a href="https://github.com/binuxliu" target="_blank">💻 GitHub</a>
-      </div>
+  <div class="entry">
+    <div class="header-shield" style="margin-bottom:24px">
+      <img class="profile-img" src="assets/images/photo.jpg" alt="Bingxi Liu" style="width:100px;height:100px">
     </div>
-  </header>
-
-  <!-- ========== ABOUT ========== -->
-  <section class="about">
-    <div class="container">
-      <h2>About</h2>
-      <p>
-        I am a <span class="highlight">PhD student</span> at the <span class="highlight">Southern University of Science and Technology (SUSTech)</span> and <span class="highlight">Peng Cheng Laboratory (PCL)</span>, working under the supervision of Prof. Hong Zhang. My research focuses on <span class="highlight">Visual Place Recognition (VPR)</span>, <span class="highlight">geo-localization</span>, and <span class="highlight">learning-based computer vision</span>.
-      </p>
-      <p>
-        Previously, I gained industry experience at <span class="highlight">Huawei</span> and conducted research at the <span class="highlight">Institute of Automation, Chinese Academy of Sciences (CASIA)</span>. I received my B.Eng. from <span class="highlight">China University of Mining and Technology (CUMT)</span>.
-      </p>
+    <h1 style="font-size:2rem;margin-bottom:8px">Bingxi (Binux) Liu</h1>
+    <p style="color:var(--text-dim);margin-bottom:32px">Redirecting…</p>
+    <div class="lang-choices">
+      <a href="en/index.html">English</a>
+      <a href="zh/index.html">中文</a>
     </div>
-  </section>
+  </div>
 
-  <!-- ========== RESEARCH INTERESTS ========== -->
-  <section>
-    <div class="container">
-      <h2>Research Interests</h2>
-      <div class="interests-grid">
-        <span class="interest-tag">Visual Place Recognition</span>
-        <span class="interest-tag">Geo-localization</span>
-        <span class="interest-tag">Image Retrieval</span>
-        <span class="interest-tag">Embodied AI</span>
-        <span class="interest-tag">Representation Learning</span>
-        <span class="interest-tag">Computer Vision</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========== PUBLICATIONS ========== -->
-  <section>
-    <div class="container">
-      <h2>Publications</h2>
-
-      <div class="pub-card">
-        <h3>Embodied-R²: Learning Mixture-of-Features with Embodied Constraints for Visual Place Retrieval and Re-ranking</h3>
-        <div class="authors">
-          <span class="me">Bingxi Liu</span>, Calvin Chen, Shiyi Guo, Yihong Wu, Jinqiang Cui, Hong Zhang
-        </div>
-        <div class="venue">Under Review — <em>Visual Intelligence</em> (Springer), 2025</div>
-        <div class="pub-links">
-          <a href="https://anonymous.4open.science/r/ER-3531" target="_blank">📄 Paper (Anon.)</a>
-        </div>
-      </div>
-
-      <div class="pub-card">
-        <h3>NPR: Nocturnal Place Recognition Using Nighttime Translation in Large-Scale Training Procedures</h3>
-        <div class="authors">
-          <span class="me">Bingxi Liu</span>, et al.
-        </div>
-        <div class="venue"><em>IEEE Journal of Selected Topics in Signal Processing (JSTSP)</em>, 2024</div>
-        <div class="pub-links">
-          <a href="https://github.com/binuxliu/NPR" target="_blank">💻 Code</a>
-        </div>
-      </div>
-
-      <div class="pub-card">
-        <h3>NocPlace: Nocturnal Visual Place Recognition via Generative and Inherited Knowledge Transfer</h3>
-        <div class="authors">
-          <span class="me">Bingxi Liu</span>, et al.
-        </div>
-        <div class="venue"><em>Preprint</em>, 2024</div>
-        <div class="pub-links">
-          <a href="https://github.com/binuxliu/NocPlace" target="_blank">💻 Code</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========== PROJECTS ========== -->
-  <section>
-    <div class="container">
-      <h2>Open-Source Projects</h2>
-      <div class="projects-grid">
-
-        <a href="https://github.com/binuxliu/NocPlace" target="_blank" class="project-card">
-          <h3>NocPlace ⭐14</h3>
-          <p>Nocturnal Visual Place Recognition via Generative and Inherited Knowledge Transfer</p>
-          <div class="meta">Python · MIT</div>
-        </a>
-
-        <a href="https://github.com/binuxliu/NPR" target="_blank" class="project-card">
-          <h3>NPR ⭐5</h3>
-          <p>Nocturnal Place Recognition using nighttime translation [JSTSP 2024]</p>
-          <div class="meta">Python · MIT</div>
-        </a>
-
-        <a href="https://github.com/binuxliu/SuperPlace" target="_blank" class="project-card">
-          <h3>SuperPlace ⭐10</h3>
-          <p>Visual Place Recognition with super global representations</p>
-          <div class="meta">Python · MIT</div>
-        </a>
-
-        <a href="https://github.com/binuxliu/FeatSR" target="_blank" class="project-card">
-          <h3>FeatSR ⭐5</h3>
-          <p>Feature super-resolution for vision tasks</p>
-          <div class="meta">Python</div>
-        </a>
-
-        <a href="https://github.com/binuxliu/CA-Place" target="_blank" class="project-card">
-          <h3>CA-Place ⭐2</h3>
-          <p>Context-aware place recognition</p>
-          <div class="meta">Python</div>
-        </a>
-
-        <a href="https://github.com/binuxliu/Deep-VLCD-Benchmark" target="_blank" class="project-card">
-          <h3>Deep-VLCD Benchmark ⭐2</h3>
-          <p>Benchmark for deep visual loop closure detection</p>
-          <div class="meta">Python</div>
-        </a>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ========== EDUCATION ========== -->
-  <section>
-    <div class="container">
-      <h2>Education &amp; Experience</h2>
-
-      <div class="edu-item">
-        <div class="edu-marker"></div>
-        <div class="edu-content">
-          <h3>PhD in Computer Vision</h3>
-          <div class="school">Southern University of Science and Technology (SUSTech) &amp; Peng Cheng Laboratory (PCL)</div>
-          <div class="year">Shenzhen, China · Present</div>
-        </div>
-      </div>
-
-      <div class="edu-item">
-        <div class="edu-marker"></div>
-        <div class="edu-content">
-          <h3>Research Intern</h3>
-          <div class="school">Institute of Automation, Chinese Academy of Sciences (CASIA)</div>
-          <div class="year">Beijing, China</div>
-        </div>
-      </div>
-
-      <div class="edu-item">
-        <div class="edu-marker"></div>
-        <div class="edu-content">
-          <h3>Huawei</h3>
-          <div class="school">Industry experience in computer vision</div>
-          <div class="year"></div>
-        </div>
-      </div>
-
-      <div class="edu-item">
-        <div class="edu-marker"></div>
-        <div class="edu-content">
-          <h3>B.Eng.</h3>
-          <div class="school">China University of Mining and Technology (CUMT)</div>
-          <div class="year"></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========== FOOTER ========== -->
-  <footer>
-    <div class="container">
-      <p>© 2025 Bingxi Liu · <a href="https://github.com/binuxliu">GitHub</a> · <a href="mailto:liubx@pcl.ac.cn">liubx@pcl.ac.cn</a> · Shenzhen, China</p>
-      <p style="margin-top:4px;">Last updated: July 2025</p>
-    </div>
-  </footer>
-
+  <script src="assets/js/main.js"></script>
 </body>
 </html>

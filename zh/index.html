@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="刘秉熙 (Binux Liu) — 博士生，视觉位置识别与计算机视觉">
+  <title>刘秉熙 (Bingxi Liu)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+  <div class="bg-stars"></div>
+  <div class="bg-grid"></div>
+  <canvas id="particles"></canvas>
+
+  <nav class="lang-switch">
+    <a href="../en/index.html">EN</a>
+    <a href="index.html" class="active">中文</a>
+  </nav>
+
+  <!-- ═══════════ HEADER ═══════════ -->
+  <header>
+    <div class="container reveal">
+      <div class="header-shield">
+        <img class="profile-img" src="../assets/images/photo.jpg" alt="刘秉熙">
+      </div>
+      <h1>刘秉熙 <span style="font-size:.6em;font-weight:400">(Binux Liu)</span></h1>
+      <div class="subtitle">计算机视觉博士生</div>
+      <div class="affiliation">
+        电子与电气工程系<br>
+        南方科技大学 (SUSTech)<br>
+        &amp; 鹏城实验室 (PCL) · 深圳
+      </div>
+      <div class="social-links">
+        <a href="mailto:liubx@pcl.ac.cn">📧 邮箱</a>
+        <a href="https://scholar.google.com/citations?user=T2_7muEAAAAJ&hl=en" target="_blank">🎓 Scholar</a>
+        <a href="https://github.com/binuxliu" target="_blank">💻 GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ═══════════ ABOUT ═══════════ -->
+  <section>
+    <div class="container reveal">
+      <div class="section-label">个人简介</div>
+      <p style="font-size:1.02rem;color:var(--text-dim);max-width:680px">
+        现为<strong style="color:var(--text-bright)">南方科技大学</strong>与<strong style="color:var(--text-bright)">鹏城实验室</strong>联合培养博士生，师从张宏教授。研究方向聚焦于<strong style="color:var(--accent-glow)">视觉位置识别（VPR）</strong>、<strong style="color:var(--accent2-glow)">地理定位</strong>和<strong style="color:var(--text-bright)">基于学习的计算机视觉</strong>。曾就职于<strong style="color:var(--text-bright)">华为</strong>、在中国科学院自动化研究所从事研究工作，本科毕业于<strong style="color:var(--text-bright)">中国矿业大学</strong>。
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════ RESEARCH ═══════════ -->
+  <section>
+    <div class="container reveal">
+      <div class="section-label">研究方向</div>
+      <div class="tag-grid">
+        <span class="tag">视觉位置识别</span>
+        <span class="tag">地理定位</span>
+        <span class="tag">图像检索</span>
+        <span class="tag">具身智能</span>
+        <span class="tag">表征学习</span>
+        <span class="tag">计算机视觉</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ PUBLICATIONS ═══════════ -->
+  <section>
+    <div class="container reveal">
+      <div class="section-label">代表性论文</div>
+
+      <div class="card">
+        <h3>Embodied-R²: 具身约束下的混合特征学习用于视觉位置检索与重排序</h3>
+        <div class="authors"><span class="me">刘秉熙</span>, Calvin Chen, 郭士毅, 吴毅红, 崔金强, 张宏</div>
+        <div class="venue">审稿中 · <em>Visual Intelligence</em> (Springer), 2025</div>
+        <div class="card-links"><a href="https://anonymous.4open.science/r/ER-3531" target="_blank">📄 论文</a></div>
+      </div>
+
+      <div class="card">
+        <h3>NPR: 基于夜间翻译的大规模夜间视觉位置识别</h3>
+        <div class="authors"><span class="me">刘秉熙</span> 等</div>
+        <div class="venue"><em>IEEE JSTSP</em>, 2024</div>
+        <div class="card-links"><a href="https://github.com/binuxliu/NPR" target="_blank">💻 代码</a></div>
+      </div>
+
+      <div class="card">
+        <h3>NocPlace: 基于生成与继承知识迁移的夜间视觉位置识别</h3>
+        <div class="authors"><span class="me">刘秉熙</span> 等</div>
+        <div class="venue"><em>预印本</em>, 2024</div>
+        <div class="card-links"><a href="https://github.com/binuxliu/NocPlace" target="_blank">💻 代码</a></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ PROJECTS ═══════════ -->
+  <section>
+    <div class="container reveal">
+      <div class="section-label">开源项目</div>
+      <div class="project-grid">
+        <a class="project-card" href="https://github.com/binuxliu/NocPlace" target="_blank">
+          <h3>NocPlace</h3>
+          <p>基于生成与继承知识迁移的夜间视觉位置识别</p>
+          <div class="meta"><span class="stars">★ 14</span> · Python · MIT</div>
+        </a>
+        <a class="project-card" href="https://github.com/binuxliu/NPR" target="_blank">
+          <h3>NPR</h3>
+          <p>大规模夜间视觉位置识别 [JSTSP 2024]</p>
+          <div class="meta"><span class="stars">★ 5</span> · Python · MIT</div>
+        </a>
+        <a class="project-card" href="https://github.com/binuxliu/SuperPlace" target="_blank">
+          <h3>SuperPlace</h3>
+          <p>基于超全局表征的视觉位置识别</p>
+          <div class="meta"><span class="stars">★ 10</span> · Python · MIT</div>
+        </a>
+        <a class="project-card" href="https://github.com/binuxliu/FeatSR" target="_blank">
+          <h3>FeatSR</h3>
+          <p>面向视觉任务的特征超分辨率</p>
+          <div class="meta"><span class="stars">★ 5</span> · Python</div>
+        </a>
+        <a class="project-card" href="https://github.com/binuxliu/CA-Place" target="_blank">
+          <h3>CA-Place</h3>
+          <p>上下文感知的位置识别</p>
+          <div class="meta"><span class="stars">★ 2</span> · Python</div>
+        </a>
+        <a class="project-card" href="https://github.com/binuxliu/Deep-VLCD-Benchmark" target="_blank">
+          <h3>Deep-VLCD</h3>
+          <p>视觉回环检测评测基准</p>
+          <div class="meta"><span class="stars">★ 2</span> · Python</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ EDUCATION ═══════════ -->
+  <section>
+    <div class="container reveal">
+      <div class="section-label">教育 &amp; 经历</div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-body">
+          <h3>博士 · 计算机视觉</h3>
+          <div class="where">南方科技大学 &amp; 鹏城实验室</div>
+          <div class="when">深圳 · 在读</div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-body">
+          <h3>研究实习</h3>
+          <div class="where">中国科学院自动化研究所 (CASIA)</div>
+          <div class="when">北京</div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-body">
+          <h3>华为</h3>
+          <div class="where">计算机视觉研发</div>
+          <div class="when"></div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-body">
+          <h3>学士 · 本科</h3>
+          <div class="where">中国矿业大学 (CUMT)</div>
+          <div class="when"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ FOOTER ═══════════ -->
+  <footer>
+    <div class="container">
+      <p>© 2025 刘秉熙 · <a href="mailto:liubx@pcl.ac.cn">liubx@pcl.ac.cn</a> · 深圳</p>
+      <p style="margin-top:4px;font-family:var(--font-mono)">Power by ❤️ · 更新于 2025年7月</p>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>
