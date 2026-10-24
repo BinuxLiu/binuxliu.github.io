@@ -26,6 +26,8 @@ The October 2026 résumé supplied by the owner is the source for academic and p
 
 Public project links were checked against the owner's repositories. NPR's 2024 venue is confirmed by its [repository citation](https://github.com/BinuxLiu/NPR); NocPlace links to its [public preprint](https://arxiv.org/abs/2402.17159). The English company name EngineAI follows its [official site](https://en.engineai.com.cn/about-us).
 
+Advisor introductions and homepage links were checked against [Hong Zhang's SUSTech profile](https://faculty.sustech.edu.cn/zhangh33/) and [Yihong Wu's UCAS profile](https://people.ucas.edu.cn/~wuyihong). LeRobot practice is retained as a short, initially collapsed entry after the main projects and is not featured in News.
+
 Core content and project details work without JavaScript. Navigation has keyboard focus indicators and a skip link. All 22 research records are readable without JavaScript; the enhanced view initially selects four illustrated works. Motion respects reduced-motion preferences. News and project disclosures use native details elements. The visual hierarchy follows the academic profile → news → publications → projects → background pattern, with a responsive white/silver design.
 
 ## Research figure sources
