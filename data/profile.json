@@ -1,0 +1,228 @@
+{
+  "publications": [
+    {
+      "title": "MT-PCR: A Hybrid Mamba-Transformer Network with Spatial Serialization for Point Cloud Registration",
+      "venue": "CVM",
+      "year": "2026",
+      "status": "published",
+      "statusZh": "已发表",
+      "statusEn": "Published",
+      "roleZh": "第一作者",
+      "roleEn": "First author",
+      "highlightZh": "最佳论文奖 · 口头报告",
+      "highlightEn": "Best Paper Award · Oral"
+    },
+    {
+      "title": "Hierarchical Visual Relocalization with Nearest View Synthesis from Feature Gaussian Splatting",
+      "venue": "CVPR",
+      "year": "2026",
+      "status": "published",
+      "statusZh": "已发表",
+      "statusEn": "Published",
+      "roleZh": "共同第一作者",
+      "roleEn": "Co-first author"
+    },
+    {
+      "title": "NPR: Nocturnal Place Recognition Using Nighttime Translation in Large-scale Training Procedures",
+      "venue": "IEEE Journal of Selected Topics in Signal Processing",
+      "year": "2024",
+      "status": "published",
+      "statusZh": "已发表",
+      "statusEn": "Published",
+      "roleZh": "第一作者",
+      "roleEn": "First author"
+    },
+    {
+      "title": "TextInPlace: Indoor Visual Place Recognition in Repetitive Structures with Scene Text Spotting and Verification",
+      "venue": "IROS",
+      "year": "2025",
+      "status": "published",
+      "statusZh": "已发表",
+      "statusEn": "Published",
+      "roleZh": "通讯作者",
+      "roleEn": "Corresponding author"
+    },
+    {
+      "title": "A convolutional-transformer network for crack segmentation with boundary awareness",
+      "venue": "ICIP",
+      "year": "2023",
+      "status": "published",
+      "statusZh": "已发表",
+      "statusEn": "Published",
+      "roleZh": "共同第一作者",
+      "roleEn": "Co-first author"
+    },
+    {
+      "title": "A Flexible and Efficient Loop Closure Detection based on Motion Knowledge",
+      "venue": "ICRA",
+      "year": "2021",
+      "status": "published",
+      "statusZh": "已发表",
+      "statusEn": "Published",
+      "roleZh": "第一作者",
+      "roleEn": "First author"
+    },
+    {
+      "title": "NocPlace: Nocturnal Visual Place Recognition Using Generative and Inherited Knowledge Transfer",
+      "venue": "ICIG",
+      "year": "2026",
+      "status": "published",
+      "statusZh": "已发表",
+      "statusEn": "Published",
+      "roleZh": "第一作者",
+      "roleEn": "First author",
+      "highlightZh": "口头报告",
+      "highlightEn": "Oral"
+    },
+    {
+      "title": "Tracking MiM: Efficient Mamba-in-Mamba Serialization for Real-time UAV Object Tracking",
+      "venue": "IEEE Transactions on Automation Science and Engineering",
+      "year": "2026",
+      "status": "review",
+      "statusZh": "第二轮审稿",
+      "statusEn": "Under review · second round",
+      "roleZh": "第一作者",
+      "roleEn": "First author"
+    },
+    {
+      "title": "Learnable Query Aggregation with KV Routing for Cross-view Geo-localisation",
+      "venue": "ICIC",
+      "year": "2026",
+      "status": "published",
+      "statusZh": "已发表",
+      "statusEn": "Published",
+      "roleZh": "共同第一作者",
+      "roleEn": "Co-first author"
+    },
+    {
+      "title": "EmbodiedPlace: Mixture-of-Features with Embodied Constraints for Visual Place Recognition",
+      "venue": "Visual Intelligence",
+      "year": "2026",
+      "status": "review",
+      "statusZh": "第二轮审稿",
+      "statusEn": "Under review · second round",
+      "roleZh": "第一作者",
+      "roleEn": "First author"
+    },
+    {
+      "title": "Asymmetric Learning with Collaborative Inference for Drone-to-Satellite Visual Geo-localization",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "year": "2026",
+      "status": "review",
+      "statusZh": "审稿中",
+      "statusEn": "Under review",
+      "roleZh": "第一作者",
+      "roleEn": "First author"
+    },
+    {
+      "title": "SuperPlace: The Renaissance of Classical Feature Aggregation for Visual Place Recognition in the Era of Foundation Models",
+      "venue": "Image and Vision Computing",
+      "year": "2026",
+      "status": "review",
+      "statusZh": "审稿中",
+      "statusEn": "Under review",
+      "roleZh": "第一作者",
+      "roleEn": "First author"
+    },
+    {
+      "title": "FeatSR: Feature Super-Resolution with Edge Awareness for Dense Prediction",
+      "venue": "IEEE Signal Processing Letters",
+      "year": "2026",
+      "status": "review",
+      "statusZh": "审稿中",
+      "statusEn": "Under review",
+      "roleZh": "第一作者",
+      "roleEn": "First author"
+    },
+    {
+      "title": "HAM-VLN: Harnessing Hierarchical Agentic Memory for Zero-Shot Vision-and-Language Navigation",
+      "venue": "AAAI",
+      "year": "2027",
+      "status": "review",
+      "statusZh": "第二轮审稿",
+      "statusEn": "Under review · second round",
+      "roleZh": "共同第一作者",
+      "roleEn": "Co-first author"
+    },
+    {
+      "title": "VLA-Refresh: When and What to Refresh in Vision-Language-Action Token Caching",
+      "venue": "ICRA",
+      "year": "",
+      "status": "review",
+      "statusZh": "投稿中",
+      "statusEn": "Submission in progress",
+      "roleZh": "",
+      "roleEn": ""
+    },
+    {
+      "title": "An Accurate Outlier Rejection Network with Higher Generalization Ability for Point Cloud Registration",
+      "venue": "IEEE Robotics and Automation Letters",
+      "year": "2023",
+      "status": "published",
+      "statusZh": "已发表",
+      "statusEn": "Published",
+      "roleZh": "合作作者",
+      "roleEn": "Co-author"
+    },
+    {
+      "title": "Deep Homography Estimation for Visual Place Recognition",
+      "venue": "AAAI",
+      "year": "2024",
+      "status": "published",
+      "statusZh": "已发表",
+      "statusEn": "Published",
+      "roleZh": "合作作者",
+      "roleEn": "Co-author"
+    },
+    {
+      "title": "Low-overlap Point Cloud Registration by Semi-global Block Matching",
+      "venue": "IEEE Transactions on Industrial Informatics",
+      "year": "2025",
+      "status": "published",
+      "statusZh": "已发表",
+      "statusEn": "Published",
+      "roleZh": "合作作者",
+      "roleEn": "Co-author"
+    },
+    {
+      "title": "An Efficient Outlier Rejection Algorithm for Point Cloud Registration",
+      "venue": "IEEE Signal Processing Letters",
+      "year": "2024",
+      "status": "published",
+      "statusZh": "已发表",
+      "statusEn": "Published",
+      "roleZh": "合作作者",
+      "roleEn": "Co-author"
+    },
+    {
+      "title": "When Objectives Agree But Rules Do not: The Hidden Cost of Exposing Rule Errors In Optimization Models",
+      "venue": "ICLR",
+      "year": "2027",
+      "status": "review",
+      "statusZh": "已投稿",
+      "statusEn": "Submitted",
+      "roleZh": "合作作者",
+      "roleEn": "Co-author"
+    },
+    {
+      "title": "Plans Are Not Proof: Paired Evidence Tests for Multi-UAV Agent Trajectories",
+      "venue": "ACL",
+      "year": "2027",
+      "status": "review",
+      "statusZh": "已投稿",
+      "statusEn": "Submitted",
+      "roleZh": "合作作者",
+      "roleEn": "Co-author"
+    },
+    {
+      "title": "AeroCommit: Evidence-Guided Verification of Vision--Language Reports Before Multi-UAV Action",
+      "venue": "ACL",
+      "year": "2027",
+      "status": "review",
+      "statusZh": "已投稿",
+      "statusEn": "Submitted",
+      "roleZh": "合作作者",
+      "roleEn": "Co-author"
+    }
+  ]
+}
