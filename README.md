@@ -4,10 +4,10 @@ A bilingual academic portfolio for visual localization, 3D perception, and embod
 
 ## Editing
 
-- `data/profile.json` contains the publication records and explicit publication statuses.
+- `data/profile.json` contains publication records, explicit statuses, selected-work flags, verified authors, thumbnail paths, and resource links.
 - `scripts/build.mjs` contains the shared page template and bilingual biography, projects, experience, and awards.
 - `assets/css/style.css` controls the responsive design.
-- `assets/js/main.js` adds the point-cloud animation, mobile navigation, publication filters, and email copy interaction.
+- `assets/js/main.js` adds mobile navigation, selected/all/published/under-review publication filters, progressive entrance effects, and the email copy interaction.
 
 After editing the data or template, run:
 
@@ -26,4 +26,13 @@ The October 2026 résumé supplied by the owner is the source for academic and p
 
 Public project links were checked against the owner's repositories. NPR's 2024 venue is confirmed by its [repository citation](https://github.com/BinuxLiu/NPR); NocPlace links to its [public preprint](https://arxiv.org/abs/2402.17159). The English company name EngineAI follows its [official site](https://en.engineai.com.cn/about-us).
 
-Core content and project details work without JavaScript. Navigation has keyboard focus indicators and a skip link. The decorative canvas pauses offscreen or in background tabs, respects reduced-motion preferences, and has a manual pause control. Project illustrations are conceptual SVG diagrams, not experiment results.
+Core content and project details work without JavaScript. Navigation has keyboard focus indicators and a skip link. All 22 research records are readable without JavaScript; the enhanced view initially selects four illustrated works. Motion respects reduced-motion preferences. News and project disclosures use native details elements. The visual hierarchy follows the academic profile → news → publications → projects → background pattern, with a responsive white/silver design.
+
+## Research figure sources
+
+The four paper thumbnails are unmodified original figures from the author papers, embedded locally with contained sizing.
+
+- [MT-PCR, Figure 3](https://arxiv.org/html/2506.13183v2): framework. Author names and equal-contribution markers follow the [formal CVM paper](https://iccvm.org/2026/files/papers/373.pdf).
+- [SplatHLoc, Figure 1](https://arxiv.org/html/2603.29185v1): teaser; CVPR 2026 is confirmed in the authors’ repository.
+- [NocPlace, Figure 4](https://arxiv.org/html/2402.17159v2): knowledge-transfer framework. The author list is intentionally abbreviated because public versions differ in ordering.
+- [SuperPlace, Figure 2](https://arxiv.org/html/2506.13073v1): feature aggregation architecture; its journal submission is explicitly labeled under review.
