@@ -1,16 +1,43 @@
 {
   "publications": [
     {
-      "title": "MT-PCR: A Hybrid Mamba-Transformer Network with Spatial Serialization for Point Cloud Registration",
+      "title": "MT-PCR: Hybrid Mamba-Transformer Network with Spatial Serialization for Point Cloud Registration",
       "venue": "CVM",
       "year": "2026",
       "status": "published",
       "statusZh": "已发表",
       "statusEn": "Published",
-      "roleZh": "第一作者",
-      "roleEn": "First author",
+      "roleZh": "共同第一作者",
+      "roleEn": "Co-first author",
       "highlightZh": "最佳论文奖 · 口头报告",
-      "highlightEn": "Best Paper Award · Oral"
+      "highlightEn": "Best Paper Award · Oral",
+      "selected": true,
+      "image": "assets/images/research/mt-pcr-framework.png",
+      "authors": [
+        "Bingxi Liu*",
+        "An Liu*",
+        "Hao Chen",
+        "Huaqi Tao",
+        "Jinqiang Cui",
+        "Yiqun Wang†",
+        "Hong Zhang†"
+      ],
+      "resources": [
+        {
+          "label": "Paper",
+          "url": "https://iccvm.org/2026/files/papers/373.pdf"
+        },
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2506.13183"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/an1iu/MT-PCR"
+        }
+      ],
+      "imageAltZh": "MT-PCR 点云特征提取、匹配与配准流程",
+      "imageAltEn": "Figure 3, original four-stage pipeline: feature extraction, Mamba-Transformer network, sparse matching, and fine matching"
     },
     {
       "title": "Hierarchical Visual Relocalization with Nearest View Synthesis from Feature Gaussian Splatting",
@@ -20,7 +47,29 @@
       "statusZh": "已发表",
       "statusEn": "Published",
       "roleZh": "共同第一作者",
-      "roleEn": "Co-first author"
+      "roleEn": "Co-first author",
+      "selected": true,
+      "image": "assets/images/research/splathloc-teaser.png",
+      "authors": [
+        "Huaqi Tao*",
+        "Bingxi Liu*",
+        "Guangcheng Chen",
+        "Fulin Tang",
+        "Li He",
+        "Hong Zhang"
+      ],
+      "resources": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2603.29185"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/HqiTao/SplatHLoc"
+        }
+      ],
+      "imageAltZh": "SplatHLoc 的特征高斯泼溅与迭代位姿优化示意",
+      "imageAltEn": "Figure 1, SplatHLoc teaser showing Feature Gaussian Splatting and iterative pose refinement"
     },
     {
       "title": "NPR: Nocturnal Place Recognition Using Nighttime Translation in Large-scale Training Procedures",
@@ -30,7 +79,21 @@
       "statusZh": "已发表",
       "statusEn": "Published",
       "roleZh": "第一作者",
-      "roleEn": "First author"
+      "roleEn": "First author",
+      "authors": [
+        "Bingxi Liu",
+        "Yujie Fu",
+        "Feng Lu",
+        "Jinqiang Cui",
+        "Yihong Wu",
+        "Hong Zhang"
+      ],
+      "resources": [
+        {
+          "label": "Code",
+          "url": "https://github.com/BinuxLiu/NPR"
+        }
+      ]
     },
     {
       "title": "TextInPlace: Indoor Visual Place Recognition in Repetitive Structures with Scene Text Spotting and Verification",
@@ -72,7 +135,25 @@
       "roleZh": "第一作者",
       "roleEn": "First author",
       "highlightZh": "口头报告",
-      "highlightEn": "Oral"
+      "highlightEn": "Oral",
+      "selected": true,
+      "image": "assets/images/research/nocplace-framework.png",
+      "authors": [
+        "Bingxi Liu",
+        "et al."
+      ],
+      "resources": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2402.17159"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/BinuxLiu/NocPlace"
+        }
+      ],
+      "imageAltZh": "NocPlace 的生成与继承知识迁移框架",
+      "imageAltEn": "Figure 4, method diagram showing training via generative/inherited knowledge transfer and testing via partial divide-and-conquer retrieval"
     },
     {
       "title": "Tracking MiM: Efficient Mamba-in-Mamba Serialization for Real-time UAV Object Tracking",
@@ -122,7 +203,31 @@
       "statusZh": "审稿中",
       "statusEn": "Under review",
       "roleZh": "第一作者",
-      "roleEn": "First author"
+      "roleEn": "First author",
+      "selected": true,
+      "image": "assets/images/research/superplace-framework.svg",
+      "authors": [
+        "Bingxi Liu",
+        "Pengju Zhang",
+        "Li He",
+        "Hao Chen",
+        "Shiyi Guo",
+        "Yihong Wu",
+        "Jinqiang Cui",
+        "Hong Zhang"
+      ],
+      "resources": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2506.13073"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/BinuxLiu/SuperPlace"
+        }
+      ],
+      "imageAltZh": "SuperPlace 的特征聚合网络结构",
+      "imageAltEn": "Figure 2, original vector illustration of the two improved classical feature aggregation architectures"
     },
     {
       "title": "FeatSR: Feature Super-Resolution with Edge Awareness for Dense Prediction",
@@ -132,7 +237,13 @@
       "statusZh": "审稿中",
       "statusEn": "Under review",
       "roleZh": "第一作者",
-      "roleEn": "First author"
+      "roleEn": "First author",
+      "resources": [
+        {
+          "label": "Code",
+          "url": "https://github.com/BinuxLiu/FeatSR"
+        }
+      ]
     },
     {
       "title": "HAM-VLN: Harnessing Hierarchical Agentic Memory for Zero-Shot Vision-and-Language Navigation",
