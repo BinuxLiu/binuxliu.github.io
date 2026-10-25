@@ -1,13 +1,13 @@
 # Bingxi Liu · Personal Homepage
 
-A bilingual academic portfolio for visual localization, 3D perception, and embodied intelligence. The site runs directly on GitHub Pages with no runtime dependencies or external font services.
+A bilingual, text-first academic homepage for visual localization, 3D perception, and embodied intelligence. The site runs directly on GitHub Pages with no runtime dependencies or external font services.
 
 ## Editing
 
-- `data/profile.json` contains publication records, explicit statuses, selected-work flags, verified authors, thumbnail paths, and resource links.
+- `data/profile.json` contains publication records, explicit statuses, selected-work flags, verified authors, thumbnail paths, resource links, and bilingual student mentoring entries.
 - `scripts/build.mjs` contains the shared page template and bilingual biography, projects, experience, and awards.
 - `assets/css/style.css` controls the responsive design.
-- `assets/js/main.js` adds mobile navigation, selected/all/published/under-review publication filters, progressive entrance effects, and the email copy interaction.
+- `assets/js/main.js` adds mobile navigation, selected/all/published/under-review publication filters, and language preference storage.
 
 After editing the data or template, run:
 
@@ -28,7 +28,9 @@ Public project links were checked against the owner's repositories. NPR's 2024 v
 
 Advisor introductions and homepage links were checked against [Hong Zhang's SUSTech profile](https://faculty.sustech.edu.cn/zhangh33/) and [Yihong Wu's UCAS profile](https://people.ucas.edu.cn/~wuyihong). LeRobot practice is retained as a short, initially collapsed entry after the main projects and is not featured in News.
 
-Core content and project details work without JavaScript. Navigation has keyboard focus indicators and a skip link. All 22 research records are readable without JavaScript; the enhanced view initially selects four illustrated works. Motion respects reduced-motion preferences. News and project disclosures use native details elements. The visual hierarchy follows the academic profile → news → publications → projects → background pattern, with a responsive white/silver design.
+The owner supplied the three student mentoring entries on October 26, 2026: Huaqi Tao (Guangxi University → SUSTech), An Liu (Chongqing University → CASIA), and Tingjun Huang (SUSTech → ETH Zurich). The text describes undergraduate research mentoring from their first research experience and preserves the supplied institutional paths without inferring degrees, dates, admission status, or a causal link between mentoring and later destinations.
+
+Core content and project details work without JavaScript. Navigation has keyboard focus indicators and a skip link. All 22 research records are readable without JavaScript; the enhanced view initially selects four illustrated works. News and project disclosures use native details elements. Smooth scrolling respects reduced-motion preferences. The compact, text-first layout follows academic profile → news → publications → mentoring → background → projects → honors, using a white background, plain headings, and blue text links. It is inspired by [Shuming Liu's academic homepage](https://sming256.github.io/).
 
 ## Research figure sources
 

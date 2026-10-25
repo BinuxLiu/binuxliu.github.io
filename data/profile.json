@@ -335,5 +335,28 @@
       "roleZh": "合作作者",
       "roleEn": "Co-author"
     }
+  ],
+  "mentoring": [
+    {
+      "name": "Huaqi Tao",
+      "fromZh": "广西大学",
+      "fromEn": "Guangxi University",
+      "toZh": "南方科技大学",
+      "toEn": "SUSTech"
+    },
+    {
+      "name": "An Liu",
+      "fromZh": "重庆大学",
+      "fromEn": "Chongqing University",
+      "toZh": "中国科学院自动化研究所",
+      "toEn": "Institute of Automation, Chinese Academy of Sciences (CASIA)"
+    },
+    {
+      "name": "Tingjun Huang",
+      "fromZh": "南方科技大学",
+      "fromEn": "SUSTech",
+      "toZh": "苏黎世联邦理工学院",
+      "toEn": "ETH Zurich"
+    }
   ]
 }

@@ -59,58 +59,10 @@
     applyFilter(initialButton.dataset.filter);
   }
 
-  function initCopyEmail() {
-    document.querySelectorAll('[data-copy-email]').forEach((button) => {
-      const label = button.querySelector('[data-copy-label]') || button;
-      const originalLabel = label.textContent;
-      const originalAriaLabel = button.getAttribute('aria-label');
-      let resetTimer;
-      button.addEventListener('click', async () => {
-        const email = button.dataset.copyEmail || button.dataset.email;
-        let message;
-        try {
-          if (!email || !navigator.clipboard || !navigator.clipboard.writeText) throw new Error('Clipboard unavailable');
-          await navigator.clipboard.writeText(email);
-          message = button.dataset.copied || 'Email copied';
-        } catch (_) {
-          message = button.dataset.failed || 'Please use the email link';
-        }
-        window.clearTimeout(resetTimer);
-        label.textContent = message;
-        button.setAttribute('aria-label', message);
-        resetTimer = window.setTimeout(() => {
-          label.textContent = originalLabel;
-          if (originalAriaLabel === null) button.removeAttribute('aria-label');
-          else button.setAttribute('aria-label', originalAriaLabel);
-        }, 2600);
-      });
-    });
-  }
-
-  function initReveal() {
-    const items = document.querySelectorAll('[data-reveal]');
-    const reducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if (!('IntersectionObserver' in window) || reducedMotion) {
-      items.forEach((item) => item.classList.add('is-visible'));
-      return;
-    }
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('is-visible');
-          observer.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.08 });
-    items.forEach((item) => observer.observe(item));
-  }
-
   function init() {
     try { localStorage.setItem('portfolio-language', document.documentElement.lang.startsWith('zh') ? 'zh' : 'en'); } catch (_) {}
     initMenu();
     initFilters();
-    initCopyEmail();
-    initReveal();
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init, { once: true });
   else init();
